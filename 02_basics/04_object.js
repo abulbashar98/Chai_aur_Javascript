@@ -61,3 +61,16 @@ users[1].email;
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//******* Object Destructuring******//
+
+const team = {
+  name: "Australia",
+  captain: "Pat Cummins",
+  vice: "Steve Smith",
+  keeper: "alex carey",
+};
+
+// const { captain } = team;
+const { captain: skipper } = team;
+console.log(skipper); //===> Pat Cummins
