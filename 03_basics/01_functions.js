@@ -35,3 +35,5 @@ function loginUserMessage(username = "sam") {
 
 console.log(loginUserMessage("hitesh"));
 // console.log(loginUserMessage("hitesh"))
+
+// Note: ! this sign cannot be used in git bash commit message.
