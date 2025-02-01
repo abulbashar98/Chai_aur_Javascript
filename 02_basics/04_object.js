@@ -30,13 +30,13 @@ const obj3 = { 5: "a", 6: "b" };
 
 //Note: Important to notice the empty {} object used as target to merge all the sources of assign.
 
-const obj_combo_with_assign = Object.assign({}, obj1, obj2, obj3);
+const obj__combo_with_assign = Object.assign({}, obj1, obj2, obj3);
 
 // console.log(obj_combo_with_assign);
 
 const obj_combo_with_spread = { ...obj1, ...obj2, ...obj3 };
 
-// console.log(obj_combo_with_spread);
+console.log(obj_combo_with_spread);
 
 const users = [
   {
